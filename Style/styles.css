@@ -1,0 +1,19 @@
+#frame {
+    width: 100%;
+    border: none;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    background-image: url("../Image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.page_setter {
+    margin-top: -90px;
+    margin-left: 20px;
+}
