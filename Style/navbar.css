@@ -31,4 +31,6 @@ li a:hover, a:active {
     font-size: 150%;
     opacity: 0.5;
     color: black;
+    box-shadow: 0 0 6px 2px darkblue;
+    border-radius: 3px;
 }
