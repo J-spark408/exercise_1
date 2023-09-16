@@ -335,17 +335,18 @@ summary {
     bottom: 6px;
     left: 6px;
 
-    &::after {
-        content: "";
-        position: absolute;
-        background: white;
-        height: 6px;
-        width: 6px;
-        border-radius: 50%;
-        bottom: 20.8px;
-    }
+    
 }
-        
+.i::after {
+    content: "";
+    position: absolute;
+    background: white;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    bottom: 20.8px;
+    } 
+
 .n {
     position: absolute;
     height: 18px;
@@ -353,29 +354,30 @@ summary {
     background: white;
     bottom: 6px;
     left: 16px;
-
-    &::before {
-        content: "";
-        position: absolute;
-        background: white;
-        border-radius: 5000px 5000px 0 0;
-        height: 18px;
-        width: 13.4px;
-        bottom: 0;
-        left: 4.6px;
-    }
-
-    &::after {
-        content: "";
-        position: absolute;
-        background: dodgerblue;
-        border-radius: 5000px 5000px 0 0;
-        height: 14px;
-        width: 6.6px;
-        bottom: 0;
-        left: 6px;
-    }
 }
+
+.n::before {
+    content: "";
+    position: absolute;
+    background: white;
+    border-radius: 5000px 5000px 0 0;
+    height: 18px;
+    width: 13.4px;
+    bottom: 0;
+    left: 4.6px;
+    }
+
+.n::after {
+    content: "";
+    position: absolute;
+    background: dodgerblue;
+    border-radius: 5000px 5000px 0 0;
+    height: 14px;
+    width: 6.6px;
+    bottom: 0;
+    left: 6px;
+}
+
 
 .contact-btn {
     background: linear-gradient(90deg, lightblue, lightyellow, lightpink);
