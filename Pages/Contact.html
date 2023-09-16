@@ -9,17 +9,25 @@
 <body>
     <iframe src="../NavBar/Navbar.html" id="frame"></iframe>
 	<div class="page_setter">
-        <div>
+        <div class="container-contact">
             <h1><em>Contact Info</em></h1>
             <table>
-                <caption><b>Contact me:</b></caption>
                 <tr>
                     <th>Discord:</th>
                     <td>j.spark1</td>
                 </tr>
             <tr>
                 <th>Linkedin:</th>
-                <td><a href="https://www.linkedin.com/in/sungwook-park-b97a25116/">John Park</a></td>
+                <td>
+                    <div class="linkedin-container">
+                        <a href="https://www.linkedin.com/in/sungwook-park-b97a25116/">
+                        <div class="linkedin-icon">
+                            <div class="i"></div>
+                            <div class="n"></div>
+                            </div>
+                        </div>
+                    </link>
+                </td>
             </tr>
             <tr>
                 <th>CSUF Email:</th>
@@ -28,24 +36,8 @@
         </table>
         <br>
         <form>
-            <fieldset>
-                <legend><label><strong>Leave a message!</strong></label></legend>
-                <select>
-                    <optgroup label="Choose message:">
-                        <option>Hello John</option>
-                        <option>Thank you for sharing</option>
-                        <option>Good bye</option>
-                    </optgroup>
-                </select>
-                <br>
-                <p>Or type here:</p>
-                <form>
-                <textarea name="message" rows="14" cols="35"></textarea>
-            </form>
-            <br>
-            <button type="button" onclick="alert('Message Sent!')">Submit</button>
-        </fieldset>
-    </form>
+            <button type="button" class="contact-btn" onclick="window.location.href='https://outlook.office365.com/mail/';">Email me</button>
+        </form>
     </div>
 </div>
 </body>
